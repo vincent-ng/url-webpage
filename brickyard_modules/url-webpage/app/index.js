@@ -26,7 +26,7 @@ async function update() {
 	$('#info #content').html(html)
 	$('#info #content-length').html(html.length)
 	$('#info #hash-length').html(hash.length)
-	$('#info #preview').attr('href', `/#${titleEncode}/${hash}`)
+	$('#info #preview').attr('href', `#${titleEncode}/${hash}`)
 	window.location.hash = `${titleEncode}/?${hash}`
 }
 
