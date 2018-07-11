@@ -1,0 +1,9 @@
+{
+  "name": "url-webpage",
+  "brickyard-module-type": "plan",
+  "version": "0.0.1",
+  "description": "plan for url-webpage",
+  "main": "index.js",
+  "author": "brickyard-developer",
+  "license": "ISC"
+}
